@@ -1,0 +1,136 @@
+@media screen and (max-width: 1111px) {
+    
+    #beranda {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #beranda h4{
+        padding-top: 0px;
+    }
+
+    .gambar-beranda-utama {
+        max-height: 300px;
+        margin: 0 auto;
+    }
+
+    .deskripsi-beranda-utama {
+        text-align: center;
+    }
+
+    .tombol{
+        width: 100%;
+    }
+
+    .tombol-apel{
+        margin-left: 0px !important; 
+    }
+
+    #liga{
+        margin: 100px 0;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    #beranda {
+        margin-top: 500px;
+        margin-bottom: 500px;
+    }
+
+    #liga{
+        margin: 20px 0;
+    }
+
+    .detail-gambar{
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 540px) {
+
+    #beranda {
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+
+    #liga{
+        margin: 20px 0;
+    }
+
+    .detail-gambar{
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .gambar-beranda-utama {
+        max-height: 450px;
+    }
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .gambar-beranda-utama {
+        max-height: 350px;
+    }
+
+    .detail-gambar{
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .gambar-beranda-utama {
+        max-height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .gambar-beranda-utama {
+        max-height: 250px;
+    }
+
+    .detail-gambar{
+        max-width: 200px;
+    }
+}
+
+
+
+@media screen and (max-width: 280px) {
+    #beranda {
+        margin-bottom: 100px;
+    }
+
+    .gambar-beranda-utama {
+        max-height: 200px;
+    }
+
+    .kartu{
+        width: 200px;
+    }
+
+    .detail-gambar{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .detail-info-klub table{
+        font-size: 10px;
+    }
+
+    .gambar-klub-tersimpan{
+        max-height: 150px;
+    }
+}
